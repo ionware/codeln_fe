@@ -3,8 +3,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: {
-        //bundle: './resources/js/app.js',
-        bootstrap: './resources/js/bootstrap.js'
+        //main: './resources/js/main.js',
+        bootstrap: './resources/js/main.js'
     },
     module: {
         rules: [
