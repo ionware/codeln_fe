@@ -1,0 +1,32 @@
+{
+  "name": "edu_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionware/edu-app.git"
+  },
+  "author": "Adedeji Stephen <ionwarez@gmail.com> (https://github.com/ionware)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionware/edu-app/issues"
+  },
+  "homepage": "https://github.com/ionware/edu-app#readme",
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/preset-env": "7.4.4",
+    "babel-loader": "8.0.6",
+    "concurrently": "4.1.0",
+    "css-loader": "2.1.1",
+    "live-server": "1.2.1",
+    "mini-css-extract-plugin": "0.6.0",
+    "node-sass": "4.12.0",
+    "sass-loader": "7.1.0",
+    "webpack": "4.31.0",
+    "webpack-cli": "3.3.2"
+  }
+}
