@@ -14,3 +14,5 @@ require('bootstrap');
  * Import customized bootstrap scss for Extraction.
  */
 require('../scss/bootstrap.scss');
+
+require('../scss/main.scss');

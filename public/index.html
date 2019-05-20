@@ -4,51 +4,92 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- favicon -->
+    <link rel="icon" href="/favicon.ico">
     <title>Hello</title>
+    <!-- request Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800&display=swap" rel="stylesheet">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- custom bootstrap and custom style -->
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <!-- bundled js asset (jQuery, BS and Popper) -->
     <script src="/assets/js/bootstrap.js"></script>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<!-- header and call to action wrapper starts-->
+<section role="main" class="main intro intro-bg-1">
+    <!-- header begins -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark header-bg-primary">
+            <a class="navbar-brand" href="#">
+                <img src="/images/logo.png" alt="Logo" height="50" width="130">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                </ul>
+                <form class="form-inline ml-md-5 my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tutomix for Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become an Instructor</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- header ends -->
+    <!-- text wrapper starts -->
+    <div class="container">
+        <div class="row h-75 align-items-center">
+            <div class="col-12">
+                <h1 class="display-3">Learn everything</h1>
+                <h1>Study what you want, explore for free</h1>
+            </div>
         </div>
-    </nav>
-</header>
-<h1>Fugas observare!</h1>
-<p>
-    Hello world
-</p>
+    </div>
+    <!-- text wrapper ends -->
+</section>
+<!-- header and call to action ends -->
+<!-- sweet feature starts -->
+<section class="features py-4">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="feature">
+                <i class="fas fa-truck-loading feature-icon"></i>
+                <span>100,00 online courses <br>Explore a variety of categories</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-friends feature-icon"></i>
+                <span>Best fellow <br>available everytime</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-save feature-icon"></i>
+                <span>Free forever <br>Offline download</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- sweet feature ends -->
 </body>
 </html>

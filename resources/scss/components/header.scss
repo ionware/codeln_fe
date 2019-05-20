@@ -1,0 +1,19 @@
+.header {
+  opacity: .7;
+}
+.header-bg-primary {
+  background-color: rgba(24,24, 24, .5);
+}
+.intro {
+  min-height: 80%;
+  width: 100%;
+  padding: 0 0 20px 0;
+}
+.intro-bg-1 {
+  background: url('/images/bg/teacher-student.gif') no-repeat;
+  background-size: cover;
+  color: darken($white, 10%);
+}
+.intro-text-wrapper {
+  padding: 50px 30px;
+}
