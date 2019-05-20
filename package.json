@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "start": "concurrently npm:asset npm:server",
+    "asset": "webpack --mode production",
+    "server": "live-server public --ignore resources,node_modules"
   },
   "repository": {
     "type": "git",
