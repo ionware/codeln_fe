@@ -1,7 +1,43 @@
 /**
+Spacing, margins and padding
+ */
+.my-lg {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.my-md {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.my-sm {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/**
 Background color
  */
 .bg-pink {
   background-color: $pink;
   color: $white;
+}
+
+/**
+Navs and Navbars
+ */
+.nav-header {
+  text-align: center;
+
+  & .nav-item {
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 3px 5px;
+    margin: 5px 20px;
+    & a {
+      color: $gray-900;
+    }
+
+    &.active {
+      border-bottom: 4px solid $primary;
+    }
+  }
 }

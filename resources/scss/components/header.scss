@@ -17,3 +17,33 @@
 .intro-text-wrapper {
   padding: 50px 30px;
 }
+.header-btn {
+  text-align: center;
+  padding: 8px 5px;
+  border: none;
+  margin: 0 5px;
+}
+.button-primary {
+  background-color: $primary;
+  color: $white !important;
+  transition: background-color linear .3s;
+  &:hover {
+    background-color: darken($primary, 15%);
+    transition: background-color linear .6s;
+  }
+}
+.button-white {
+  background-color: $white;
+  color: $black !important;
+  transition: background-color linear .3s;
+  &:hover {
+    background-color: darken($white, 15%);
+    transition: background-color linear .6s;
+  }
+}
+.header-input {
+  border: 1px solid $black;
+  padding: 7px 10px;
+  font-size: .89em;
+  width: 100%;
+}

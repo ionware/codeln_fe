@@ -1,0 +1,59 @@
+.course-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course {
+  padding: 30px 10px;
+  background-color: darken($white, 5%);
+  width: 250px;
+  text-align: center;
+  border: 1px solid $gray-500;
+  margin: 15px 15px 0 0;
+  border-radius: 3px;
+  transition: background-color ease-in-out .6s,
+              border-color ease-in-out .6s;
+  &:hover {
+    cursor: pointer;
+    background-color: darken($white, 10%);
+    border-color: $gray-600;
+    transition: background-color ease-in-out .6s, border-color ease-in-out .6s;
+  }
+}
+.course-img {
+  width: 90px;
+  height: 90px;
+}
+.course-info {
+  margin: 12px 0;
+  text-align: left;
+  font-size: .89em;
+}
+.course-author {
+  display: block;
+  font-weight: bold;
+}
+.course-name {
+  display: block;
+}
+.course-stat {
+  margin: 5px 0;
+  text-align: left;
+}
+.course-stars {
+  display: inline-block;
+  margin-right: 8px;
+  & .rated {
+    color: $yellow;
+  }
+}
+.course-rating {
+  font-size: .85em;
+}
+.course-price {
+  text-align: right;
+  font-size: .89em;
+}
+.course-discount {
+  text-decoration: line-through;
+}
