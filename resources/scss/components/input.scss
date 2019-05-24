@@ -1,0 +1,21 @@
+.input-icon {
+  border: 1px solid $black;
+  padding: 5px 10px;
+}
+.input-icon .bg-white {
+  background-color: darken($white, 5%);
+}
+.input-icon .icon {
+  font-size: 1.5em;
+  border: none;
+}
+.input-icon .field {
+  background: transparent;
+  width: 85%;
+  border: none;
+  padding: 10px 7px;
+  outline: none;
+  &:active, &:focus {
+    outline: none;
+  }
+}

@@ -43,9 +43,9 @@
 .course-stars {
   display: inline-block;
   margin-right: 8px;
-  & .rated {
-    color: $yellow;
-  }
+}
+.rated {
+  color: $yellow !important;
 }
 .course-rating {
   font-size: .85em;
@@ -56,4 +56,90 @@
 }
 .course-discount {
   text-decoration: line-through;
+}
+
+.course-hero {
+  background-color: $black;
+  color: $white;
+  padding: 60px 30px;
+
+  & .course-stat {
+    margin-top: 90px;
+    font-size: 1.2em;
+    & i {
+      color: $gray-600;
+    }
+  }
+}
+.course-outline-list {
+  list-style-type: none;
+  margin-top: 15px;
+  text-align: justify;
+}
+.course-outline-list-item {
+  margin: 10px 0;
+}
+.course-outline-list-item:before {
+  content: "\2014";
+}
+.course-preview {
+  background-color: $white;
+  position: relative;
+  top: -300px;
+}
+.course-thumbnail {
+  padding: 60px 0;
+  border-bottom: 1px solid $gray-400;
+  text-align: center;
+  & img {
+    width: 150px;
+    height: 150px;
+  }
+}
+.course-action {
+  padding: 25px 50px;
+  border-bottom: 1px solid $gray-400;
+  text-align: center;
+}
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  & .price {
+    font-weight: bolder;
+  }
+  & span {
+    color: $gray-700;
+  }
+}
+.cart-btn {
+  border: 0;
+  background-color: $primary;
+  color: $white;
+  font-weight: bold;
+  padding: 8px 30px;
+  transition: background-color ease-out .6s;
+  & i {
+    font-size: 1.3em;
+    margin-right: 8px;
+  }
+  &:hover {
+    background-color: darken($primary, 10%);
+    transition: background-color linear .5s;
+  }
+}
+.course-share {
+  padding: 30px;
+  text-align: center;
+
+  & a {
+    font-size: 2.1em;
+    margin: 4px 10px;
+    color: $gray-700;
+    transition: color ease-out .6s;
+    &:hover {
+      color: $black;
+      transition: color linear .4s;
+    }
+  }
 }
