@@ -20,6 +20,11 @@
     transition: background-color ease-in-out .6s, border-color ease-in-out .6s;
   }
 }
+@include media-breakpoint-down(sm) {
+  .course {
+    width: 45%;
+  }
+}
 .course-img {
   width: 90px;
   height: 90px;
@@ -86,6 +91,12 @@
   background-color: $white;
   position: relative;
   top: -300px;
+}
+@include media-breakpoint-down(sm) {
+  .course-preview {
+    position: static;
+    top: 0;
+  }
 }
 .course-thumbnail {
   padding: 60px 0;
